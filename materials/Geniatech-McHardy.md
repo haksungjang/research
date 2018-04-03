@@ -1,34 +1,11 @@
-Geniatech vs. McHardy 소송 사례
-===============================
+출처 : Report from the Geniatech vs. McHardy GPL violation court hearing - http://laforge.gnumonks.org/blog/20180307-mchardy-gpl/
 
--   [*1. History of the
-    Case*](#Geniatechvs.McHardy소송사례-1.HistoryoftheC)
-
--   [*2. The appeals case at OLG
-    Cologne*](#Geniatechvs.McHardy소송사례-2.Theappealscas)
-
--   [*3. Withdrawal by Patrick
-    McHardy*](#Geniatechvs.McHardy소송사례-3.WithdrawalbyP)
-
--   [*4. Personal
-    Opinion*](#Geniatechvs.McHardy소송사례-4.PersonalOpini)
-
--   [*5. Lessons learned for the developer
-    community*](#Geniatechvs.McHardy소송사례-5.Lessonslearne)
-
--   [*6. Lessons learned for the IT
-    industry*](#Geniatechvs.McHardy소송사례-6.Lessonslearne)
-
--   [*7. Dear Patrick*](#Geniatechvs.McHardy소송사례-7.DearPatrick)
-
-출처 : Report from the Geniatech vs. McHardy GPL violation court hearing
-- [*http://laforge.gnumonks.org/blog/20180307-mchardy-gpl/*](http://laforge.gnumonks.org/blog/20180307-mchardy-gpl/)
+# 2018-03 Geniatech vs. McHardy
 
 (2018년 3월7일, 고등법원의 공개 구두 심리에 참석했던 Harald Welte가 본
 case에 대해 작성한 report를 정리함)
 
 # 1. History of the Case
-======================
 
 -   원고 : Patrick McHardy
 
@@ -45,37 +22,58 @@ case에 대해 작성한 report를 정리함)
         공개적으로 인정하지만, preliminary injunction (예비 금지
         명령)에서의 주장은 지나치게 광범위한 것임"
 
-| **Date**         | **내용**                                                                                                              |
-|------------------|-----------------------------------------------------------------------------------------------------------------------|
-| 2017년 7월       | -   Patrick McHardy는 Geniatech Europe product 구매하고, 이 제품이 GPL-2.0 침해를 발견함                              
-                                                                                                                                           
-                        -   명백하게 binary와 함께 source code (혹은 written offer)가 제공되지 않았음                                      
-                                                                                                                                           
-                        -   이는 license 조항 위반임으로 저작권 침해임                                                                     
-                                                                                                                                           
-                    -   원고는 쾰른 지방 법원에 피고에 대한 preliminary injunction 요청                                                    |
-| 2017년 9월 8일   | -   preliminary injunction 부여                                                                                       
-                                                                                                                                           
-                    &lt;독일의 legal procedure&gt;                                                                                         
-                                                                                                                                           
-                    -   원고가 preliminary injunction을 신청하면, 간단한 검토 후 즉시 부여됨 (구두 심리에서 피고인의 말을 듣는 과정 없이)  
-                                                                                                                                           
-                    -   피고가 preliminary injunction에 항소하기를 원하면, 항소를 제기하여 구두 심리(court hearing)를 함                   |
-|                  | -   피고가 preliminary injunction에 대해 항소                                                                         |
-| 2017년 10월 20일 | -   쾰른 지방 법원은 injuction (금지 명령)을 부분적으로 지지하는 판결을 내림                                          |
-|                  | -   피고는 고등법원 (OLG Cologne)에 위의 판결을 철회할 것을 항소                                                      |
-| 2018년 3월 7일   | -   구두 심리 (court hearing)                                                                                         
-                                                                                                                                           
-                    -   injunction 철회                                                                                                    |
+경과
+----
 
-### 명백한 사실 : copyright infringement
+1.  2017년 7월
+
+    -   Patrick McHardy는 Geniatech Europe product 구매하고, 이 제품이
+        GPL-2.0 침해를 발견함
+
+        -   명백하게 binary와 함께 source code (혹은 written offer)가
+            제공되지 않았음
+
+        -   이는 license 조항 위반임으로 저작권 침해임
+
+    -   원고는 쾰른 지방 법원에 피고에 대한 preliminary injunction 요청
+
+2.  2017년 9월 8일
+
+    -   preliminary injunction 부여
+
+    -   (참고: 독일의 legal procedure) 
+
+        -   원고가 preliminary injunction을 신청하면, 간단한 검토 후
+            즉시 부여됨 (구두 심리에서 피고인의 말을 듣는 과정 없이)
+
+        -   피고가 preliminary injunction에 항소하기를 원하면, 항소를
+            제기하여 구두 심리(court hearing)를 함
+
+    -   피고가 preliminary injunction에 대해 항소
+
+3.  2017년 10월 20일
+
+    -   쾰른 지방 법원은 injuction (금지 명령)을 부분적으로 지지하는
+        판결을 내림
+
+    -   피고는 고등법원 (OLG Cologne)에 위의 판결을 철회할 것을 항소
+
+4.  2018년 3월 7일
+
+    -   구두 심리 (court hearing)
+
+    -   injunction 철회
+
+명백한 사실 : copyright infringement
+------------------------------------
 
 -   copyright infringement에 대해서는 이견이 없음
 
 -   copyright holder는 infringing party의 추가적인 침해를 중지 (cease
     and desist) 시킬 수 있는 권리가 있음
 
-### 논란 : 매우 광범위한 범위의 injunction
+논란 : 매우 광범위한 범위의 injunction
+--------------------------------------
 
 -   이 injunction은 매우 광범위한 범위를 가짐
 
@@ -92,70 +90,74 @@ case에 대해 작성한 report를 정리함)
         요청을 중지(cease and desist)
 
 # 2. The appeals case at OLG Cologne
-==================================
 
 -   피고는 고등법원 (OLG Cologne)에 지방법원에서의 광범위한 범위를 갖는
     injunction의 제거를 요청하는 항소 제기
 
-구두 심리 당일, 재판관 (presiding judge)은 35분간 법원의 이해에 대한
-사전 설명 (OLG 법원이 본 case에 대해 연구한 깊이가 놀라웠음)
+-   구두 심리 당일, 재판관 (presiding judge)은 35분간 법원의 이해에 대한
+    사전 설명 (OLG 법원이 본 case에 대해 연구한 깊이가 놀라웠음)
 
-1.  법원은 Linux가 1991년 Linux Torvalds에 의해 만들어지고,
-    collaborative development 촉진을 위해 GPL하에 배포되었음을 이해함
+    1.  법원은 Linux가 1991년 Linux Torvalds에 의해 만들어지고,
+        collaborative development 촉진을 위해 GPL하에 배포되었음을
+        이해함
 
-2.  법원은 Linux kernel 전체에 co-authorship / joint authorship이 없음을
-    인정함
+    2.  법원은 Linux kernel 전체에 co-authorship / joint authorship이
+        없음을 인정함
 
-    -   이는, program을 많은 사람들이 함께 plnanning + developing하는
-        것이 아니고,
+        -   이는, program을 많은 사람들이 함께 plnanning +
+            developing하는 것이 아니고,
 
-    -   Linus Torvalds가 program을 release한 이래로, 15,000명 이상의
-        개발자들이 어떠한 "grand joint plan" 없이 편집되고, 이것이
-        연속적으로 반복되는 형태이기 때문.
+        -   Linus Torvalds가 program을 release한 이래로, 15,000명 이상의
+            개발자들이 어떠한 "grand joint plan" 없이 편집되고, 이것이
+            연속적으로 반복되는 형태이기 때문.
 
-3.  법원은 "head of the netfilter core team" 혹은 "subsystem
-    maintainer"에 이름을 올리는 것이 반드시 copyrightable work에
-    contributing하는 사람인 것을 의미하지 않는다는 것을 인정
+    3.  법원은 "head of the netfilter core team" 혹은 "subsystem
+        maintainer"에 이름을 올리는 것이 반드시 copyrightable work에
+        contributing하는 사람인 것을 의미하지 않는다는 것을 인정
 
-    -   수천개의 patch를 review하는 것이 이들의 copyright을 소유하는
-        것이 아님
+        -   수천개의 patch를 review하는 것이 이들의 copyright을 소유하는
+            것이 아님
 
-4.  법원은 Patric McHardy's code가 포함되지 않는 수많은 Linux version
-    (예: older version)이 있다는 것을 이해
+    4.  법원은 Patric McHardy's code가 포함되지 않는 수많은 Linux
+        version (예: older version)이 있다는 것을 이해
 
-심리 이전, 재판관은 그들의 내부적으로 고심(internal elaboration)한
-사항에 대해 요약 설명.
+-   심리 이전, 재판관은 그들의 내부적으로 고심(internal elaboration)한
+    사항에 대해 요약 설명.
 
--   재판관은 피고의 주장에 merit가 있다고 믿고, 본 case에 대한 법원의
-    이해에 비춰볼때 피고에게 유리한 판결을 할 것임을 진술하며, 다음과
-    같은 사항을 주요 이유로 언급
+    1.  재판관은 피고의 주장에 merit가 있다고 믿고, 본 case에 대한
+        법원의 이해에 비춰볼때 피고에게 유리한 판결을 할 것임을
+        진술하며, 다음과 같은 사항을 주요 이유로 언급
 
-1.  Linux kernel development model은 Patrick McHardy가 Linux의
-    co-author라는 주장을 support하지 않음
+    <!-- -->
 
-    -   지금까지 그는 단지 editing author이지 co-author인 것이 아님
+    1.  Linux kernel development model은 Patrick McHardy가 Linux의
+        co-author라는 주장을 support하지 않음
 
-    -   단, editing author라도 cease and desist을 요구할 권리가 있음.
-        다만, 그가 authored/edited인 부분에 대해서만 요청할 수 있지,
-        전체 Linux kernel에 대해 요청할 수는 없음.
+        -   지금까지 그는 단지 editing author이지 co-author인 것이 아님
 
-2.  원고는 그의 contribution이 정확히 무엇인지, 그리고 그것들이 스스로
-    어떻게 copyrightable work을 형성하고 있는지에 대해 충분히 보여주지
-    못함
+        -   단, editing author라도 cease and desist을 요구할
+            권리가 있음. 다만, 그가 authored/edited인 부분에 대해서만
+            요청할 수 있지, 전체 Linux kernel에 대해 요청할 수는 없음.
 
-3.  원고는 netfilter/iptables 외 그가 작성한 copyrightable
-    contributions이 무엇인지에 대해 입증하지 않음
+    2.  원고는 그의 contribution이 정확히 무엇인지, 그리고 그것들이
+        스스로 어떻게 copyrightable work을 형성하고 있는지에 대해 충분히
+        보여주지 못함
 
-    -   단지, general networking subsystem maintainer에 이름을 올린
-        것만으로는 그의 copyrightable contributions이 무엇인지 명확하지
-        않음
+    3.  원고는 netfilter/iptables 외 그가 작성한 copyrightable
+        contributions이 무엇인지에 대해 입증하지 않음
 
-4.  원고가 netfilter core team의 member이거나 core team의 head였다고
-    하는 것으로는 여전히 co-author라는 주장을 support하지 않음
+        -   단지, general networking subsystem maintainer에 이름을 올린
+            것만으로는 그의 copyrightable contributions이 무엇인지
+            명확하지 않음
 
-    -   netfilter는 1999년 이후 실질적으로 존재하였음. 이는 Pactrick이
-        netfilter에 첫 contribution하기 3년전이고, core team에 join
-        (2014년)하기 5년전임.
+    4.  원고가 netfilter core team의 member이거나 core team의 head였다고
+        하는 것으로는 여전히 co-author라는 주장을 support하지 않음
+
+        -   netfilter는 1999년 이후 실질적으로 존재하였음. 이는
+            Pactrick이 netfilter에 첫 contribution하기 3년전이고, core
+            team에 join (2004년)하기 5년전임.
+
+<!-- -->
 
 -   전반적으로 법원도 판결이 너무 가혹 (far-fetching)하다고 생각
 
@@ -165,54 +167,55 @@ case에 대해 작성한 report를 정리함)
     -   regular main proceeding에서는 전문가 증인을 요구할 수있고, 실제
         증거를 제공해야 함
 
-이외 법원에서 언급된 다른 세부 사항:
+-   이외 법원에서 언급된 다른 세부 사항:
 
-1.  Patrick McHardy는  2017년 7월 26 일 피고인 측에 e-mail로 자신의
-    저작물에 대한 license를 일방적으로 종료
+    -   Patrick McHardy는  2017년 7월 26 일 피고인 측에 e-mail로 자신의
+         저작물에 대한 license를 일방적으로 종료
 
-    -   피고 (그리고 나(Welte)를 포함한 general legal opinion)에 따르면,
-        이렇게 license를 일방적으로 종료하는 것은 결국 GPL-2.0 위반임.
+        -   피고 (그리고 나(Welte)를 포함한 general legal opinion)에
+            따르면, 이렇게 license를 일방적으로 종료하는 것은 결국
+            GPL-2.0 위반임.
 
-    -   GPL-2.0은 단지 원고의 work을 모든 third party(피고 포함)에게
-        GPL-2.0으로 license해야하는 의무 하에 Linux의 modified version을
-        create / publish 할 수 있도록 허용함
+        -   GPL-2.0은 단지 원고의 work을 모든 third party(피고 포함)에게
+            GPL-2.0으로 license해야하는 의무 하에 Linux의 modified
+            version을 create / publish 할 수 있도록 허용함
 
-    -   피고는 이렇게 license를 일방적으로 종료하는 것은 원고의 권리를
-        남용하는 것으로 생각함
+        -   피고는 이렇게 license를 일방적으로 종료하는 것은 원고의
+            권리를 남용하는 것으로 생각함  
+            "According to the defendant (and general legal opinion,
+            including my own position), this is in turn a violation of
+            the GPLv2, as it only allowed plaintiff to create and
+            publish modified versions of Linux under the obligation that
+            he licenses his works under GPLv2 to any third party,
+            including the defendant. The defendant believes this is
+            abuse of his rights (German: Rechtsmissbraeuchlich)."
 
-> According to the defendant (and general legal opinion, including my
-> own position), this is in turn a violation of the GPLv2, as it only
-> allowed plaintiff to create and publish modified versions of Linux
-> under the obligation that he licenses his works under GPLv2 to any
-> third party, including the defendant. The defendant believes this is
-> abuse of his rights (German: Rechtsmissbraeuchlich).
+    -   senior kernel developer인 Greg Kroah-Hartman과 현재 netfilter
+         maintainer인 Pablo Neira의 선서 진술서(sworn affidavits)가
+         피고의 주장을 support하기 위해 제출됨 (내용은 비공개)
 
-1.  senior kernel developer인 Greg Kroah-Hartman과 현재 netfilter
-    maintainer인 Pablo Neira의 선서 진술서(sworn affidavits)가 피고의
-    주장을 support하기 위해 제출됨 (내용은 비공개)
+    -   피고는 Patrick McHardy가 license compliance가 아닌 금전적 이득을
+         창출하는 방법으로 enforcement activity를 수행한다는 주장을
+         입증함
 
-2.  피고는 Patrick McHardy가 license compliance가 아닌 금전적 이득을
-    창출하는 방법으로 enforcement activity를 수행한다는 주장을 입증함
+        -   McHardy가 38건 이상의 case를 처리하였고, 이중 하나는 180만
+            유로의 contractual penalty를 요구했음
 
-    -   McHardy가 38건 이상의 case를 처리하였고, 이중 하나는 180만
-        유로의 contractual penalty를 요구했음
+        -   contractual penalty로 받은 총금액은 2백만 유로를 넘음
 
-    -   contractual penalty로 받은 총금액은 2백만 유로를 넘음
+        -   이는 피고의 주장이며, 법원은 이에 대한 타당성을 평가하지는
+            않았음
 
-    -   이는 피고의 주장이며, 법원은 이에 대한 타당성을 평가하지는
-        않았음
+        -   하지만, 재판관은 개인적으로 알고 있는 변호사로부터 이 건에
+            대해 전화를 받았으며, 다른 case에서 큰 contractual penalty가
+            지급되고 있음을 들었다고 명시적으로 진술함.
 
-    -   하지만, 재판관은 개인적으로 알고 있는 변호사로부터 이 건에 대해
-        전화를 받았으며, 다른 case에서 큰 contractual penalty가 지급되고
-        있음을 들었다고 명시적으로 진술함.
-
-3.  원고의 주장 중 하나는 그가 2017년까지
-    general kernel networking maintainer에 등록되어 있는 것으로 보임
-    (그의 latest patch는 2015년이고, 그것도 netfilter가
-    유일함에도 불구하고)
+    -   원고의 주장 중 하나는 그가 2017년까지
+         general kernel networking maintainer에 등록되어 있는 것으로
+         보임 (그의 latest patch는 2015년이고, 그것도 netfilter가
+         유일함에도 불구하고)
 
 # 3. Withdrawal by Patrick McHardy
-================================
 
 -   법원 심리는 일시적으로 중단
 
@@ -226,7 +229,6 @@ case에 대해 작성한 report를 정리함)
     수수료, 양쪽 변호사 비용)을 부담해야함
 
 # 4. Personal Opinion
-===================
 
 -   나는 copyright holders에 의한 license enforcement를 선호함
 
@@ -275,7 +277,6 @@ case에 대해 작성한 report를 정리함)
         서면 판결로 다른 argument들도 종결이 되면 좋았을 것
 
 # 5. Lessons learned for the developer community
-==============================================
 
 -   computer programming에 detailed knowledge가 없는 법조계 사람들은
     "metadata"를 보는 경향이 있음. 이것이 그들이 이해할 수 있는
@@ -293,7 +294,6 @@ case에 대해 작성한 report를 정리함)
         patch는 merge하지 말아야 함. 
 
 # 6. Lessons learned for the IT industry
-======================================
 
 -   좋지 않은 동기로 GPL enforcement를 하는 사람이 있을 수 있음
 
@@ -310,7 +310,6 @@ case에 대해 작성한 report를 정리함)
     -   이때는 이 Patrick case처럼 되지는 않을 것임
 
 # 7. Dear Patrick
-===============
 
 For years, your former netfilter colleagues and friends wanted to have a
 conversation with you. You have not returned our invitation so far.
