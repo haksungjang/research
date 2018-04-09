@@ -76,7 +76,7 @@ case에 대해 작성한 report를 정리함)
 -   이 injunction은 매우 광범위한 범위를 가짐
 
 1.  (license를 준수 하지 않는한) 피고는 모든 version의 Linux를 download,
-    publising, selling, offering하는 것을 중지(cease and desist)
+    publising, selling, offering하는 것 중지(cease and desist)
 
 2.  (complete and corresponding source code를 제공하는 등의 GPL 의무를
     준수하지 않는한)
