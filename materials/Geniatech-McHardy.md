@@ -62,8 +62,6 @@ case에 대해 작성한 report를 정리함)
 
     -   구두 심리 (court hearing)
 
-    -   injunction 철회
-
 명백한 사실 : copyright infringement
 ------------------------------------
 
