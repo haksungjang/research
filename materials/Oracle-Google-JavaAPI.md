@@ -30,15 +30,11 @@
 ## 1.배경
 
 - Java2 SE (Standard Edition)
-
--
-  - --Sun Microsystems가개발
-  - --Oracle이매입
+  - Sun Microsystems가개발
+  - Oracle이매입
 
 - API (Application Programming Interface)
-
--
-  - --공통적이고반복적인컴퓨터기능들을구현
+  - 공통적이고반복적인컴퓨터기능들을구현
 
 - Java Programming 언어자체는누구든지허락을받을필요없이무료로사용가능
 - Oracle은경쟁Platform이나Embedded 기기에Java API를사용하는데에는License 비용을부과하고있음
