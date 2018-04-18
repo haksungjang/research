@@ -1,4 +1,4 @@
-# Open Source for Business**
+# Open Source for Business
 
 출처 : [https://www.amazon.com/Open-Source-Business-Practical-Licensing/dp/1544737645](https://www.amazon.com/Open-Source-Business-Practical-Licensing/dp/1544737645)
 
@@ -8,7 +8,7 @@ A Practical Guide to Open Source Software Licensing / Second Edition
 
 ©2015–2017 Heather Meeker. All Rights Reserved.
 
-### Preface
+## Preface
 
 - “killer apps” of open source : “LAMP stack”
     - Linux kernel
@@ -16,13 +16,13 @@ A Practical Guide to Open Source Software Licensing / Second Edition
     - MySQL database
     - PHP scripting
 
-#### Background: UNIX, Linux, and Software Licensing
+### Background: UNIX, Linux, and Software Licensing
 
 - 사실, open source licensing은 software licensing의 original model이다. 
     - proprietary licensing은새로운것(newcomer)이다. 
     - 이두 model이어떻게함께발전했는지이해하려면 computing 역사에대해이해해야한다. 
 
-**Once Upon a Time, There Was an Operating System Called UNIX**
+### Once Upon a Time, There Was an Operating System Called UNIX
 
 - “open source”는 license model이면서 software development model이다. 
     - license model과 development model의 risk는매우다르기때문에이차이는중요하다. 
@@ -70,7 +70,7 @@ A Practical Guide to Open Source Software Licensing / Second Edition
     - 그러나 computing 세계는곧변화하였다. 
     - 몇년후, microcomputer가표준이었고, binary software가표준이되었다. 
 
-**Linux: The “Killer App”**
+### Linux: The “Killer App”
 
 - Open source software (특히 copyleft software licensing)는 Linux가아니었다면법적호기심정도로남아있었을것이다. 
     - 많은 system에서 Linux를 operating system core로사용하고, 그위에 Android, Chrome 또는 Mac과같은 layer들이있다. 
@@ -112,9 +112,9 @@ A Practical Guide to Open Source Software Licensing / Second Edition
 - 하지만, 더중요한것은 Linux를사용하기위해업계는 Linux의 licensing 조항을사용해야했다.
     - 이에따라, Stallman이개척한 copyleft paradigm은천천히견인력을얻었다. 
 
-Part I: A Foundation
+# Part I: A Foundation
 
-**Chapter 1 The Philosophy of Free and Open Source Software**
+## Chapter 1 The Philosophy of Free and Open Source Software
 
 - 대부분의사람들은 Linux kernel과 Apache web server와같은 software를 “open source” software라고한다. 
     - 하지만, open source 운동의선구자들은 open source라는용어를사용하지않으며, 그들이시작한것은 “free software” 운동이었다. 
