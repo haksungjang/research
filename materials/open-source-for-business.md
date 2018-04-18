@@ -1,22 +1,3 @@
-p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 30.0px 'Helvetica Neue'; color: #000000; -webkit-text-stroke: #000000}
-p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #000000; -webkit-text-stroke: #000000; min-height: 12.0px}
-p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #000000; -webkit-text-stroke: #000000}
-p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px 'Nanum Gothic'; color: #767676; -webkit-text-stroke: #767676; background-color: #ffffff}
-p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #000000; -webkit-text-stroke: #000000}
-p.p6 {margin: 0.0px 0.0px 18.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #000000; -webkit-text-stroke: #000000; min-height: 12.0px}
-p.p7 {margin: 0.0px 0.0px 2.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #000000; -webkit-text-stroke: #000000}
-p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px 'Helvetica Neue'; color: #000000; -webkit-text-stroke: #000000}
-p.p10 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px 'Helvetica Neue'; color: #000000; -webkit-text-stroke: #000000; min-height: 23.0px}
-li.li3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Helvetica Neue'; color: #000000; -webkit-text-stroke: #000000}
-li.li8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px 'Apple SD Gothic Neo'; color: #000000; -webkit-text-stroke: #000000}
-span.s1 {font-kerning: none}
-span.s2 {font: 11.0px 'Apple SD Gothic Neo'; font-kerning: none}
-span.s3 {font: 11.0px 'Helvetica Neue'; text-decoration: underline ; font-kerning: none}
-span.s4 {letter-spacing: 0.2px}
-span.s5 {font: 11.0px 'Helvetica Neue'}
-span.s6 {font: 11.0px 'Helvetica Neue'; font-kerning: none}
-ul.ul1 {list-style-type: disc}
-
 **Open Source for Business**
 
 출처 : [https://www.amazon.com/Open-Source-Business-Practical-Licensing/dp/1544737645](https://www.amazon.com/Open-Source-Business-Practical-Licensing/dp/1544737645)
